@@ -6,7 +6,8 @@ CLI-конвертер валют без API-ключей.
     → 150.00 EUR = 162.85 USD
 """
 from __future__ import annotations
-import sys, json, requests
+import sys
+import requests
 from typing import Final
 
 OPEN_API: Final[str] = "https://open.er-api.com/v6/latest/{}"
